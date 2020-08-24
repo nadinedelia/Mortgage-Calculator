@@ -5,7 +5,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        String message = "Hi John,\nHow are you doing today?";
+        String message = "What I did today:\tLearn Java";
         System.out.println(message);
     }
 }
