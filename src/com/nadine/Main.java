@@ -1,11 +1,12 @@
 package com.nadine;
 
-import java.awt.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        String message = "What I did today:\tLearn Java";
-        System.out.println(message);
+        int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[2] = 2;
+        System.out.println(numbers);
     }
 }
