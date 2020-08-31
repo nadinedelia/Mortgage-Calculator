@@ -1,13 +1,17 @@
 package com.nadine;
 
 
-import java.util.Arrays;
+import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        double x = 1.1;
-        double y = x + 2;
-        System.out.println(y);
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Principal: ");
+        int principal = scanner.nextInt();
     }
 }
