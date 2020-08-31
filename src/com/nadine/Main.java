@@ -11,7 +11,12 @@ public class Main {
         final byte PERCENT = 100;
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Principal: ");
         int principal = scanner.nextInt();
+
+        System.out.println("Annual Interest Rate: ");
+        float annualInterest = scanner.nextFloat();
+        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
     }
 }
