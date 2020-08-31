@@ -22,5 +22,12 @@ public class Main {
         System.out.println("Period (Years): ");
         byte years = scanner.nextByte();
         int numberOfPayments = years * MONTHS_IN_YEAR;
+
+        double mortgage = principal
+                * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments));
+                / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+
+                String mortgageFormatted = NumberFormat.getCurrencyInstance();
+                System.out.println("Mortgage: " + mortgageFormatted);
     }
 }
